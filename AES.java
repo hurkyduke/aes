@@ -31,7 +31,7 @@ public class AES {
     // Main method to demonstrate encryption and decryption
     public static void main(String[] args) {
         try {
-            String plainText = "venkatesh";
+            String plainText = "helloworld";
             SecretKey secretKey = generateKey(128);
             String encryptedText = encrypt(plainText, secretKey);
             System.out.println("Encrypted Text: " + encryptedText);
